@@ -7,7 +7,10 @@ public class Principale {
 		
 		Cliente clienteA = new Cliente("codiceA", "Anita", "Verrilli", 10);
 		Prodotto prodotto1a = new Prodotto("prodotto1a", "prodotto1a", 10.00, 2);
-		Prodotto prodotto1b = new Prodotto("prodotto1b", "prodotto1b", 20.00, 5);
+		Prodotto prodotto2a = new Prodotto("prodotto1b", "prodotto1b", 20.00, 5);
+
+		Cliente clienteB = new Cliente("codiceB", "Fra", "Verrilli", 100);
+		Prodotto prodotto1b = new Prodotto("prodotto1b", "prodotto1b", 50.00, 3);
 
 	}
 
