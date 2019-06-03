@@ -24,5 +24,24 @@ public class Supermercato {
 		return puntiTotale;
 
 	}
+	
+	public static ArrayList<Cliente> clientiPiuFedele(ArrayList<Cliente> clienti) {
+		ArrayList<Cliente> clientiPiuFedeli = new ArrayList<>();
+		int maxPunti = 0;
+		
+		for(Cliente c: clienti) {
+			if(c.getPunti() > maxPunti) {
+				maxPunti = c.getPunti();
+			}
+		}
+		
+		for(Cliente c : clienti) {
+			if(c.getPunti() == maxPunti) {
+				clientiPiuFedeli.add(c);
+			}
+		}
+		return clientiPiuFedeli;
+		
+	}
 
 }
