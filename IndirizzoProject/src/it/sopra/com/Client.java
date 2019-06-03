@@ -19,6 +19,19 @@ public class Client {
 		Persona francesca = new Persona("Francesca", "Verrilli", new Date("19/08/1988"), new Indirizzo("Croci", 2, "Cf", "82022", "BN", "Campania"));
 		System.out.println(francesca.toString());
 
+		ArrayList<String> formazioneFrancesca = new ArrayList<String>();
+		formazioneFrancesca.add("uiip");
+		formazioneFrancesca.add("hybris");
+		Studente francescaStudente = new Studente(anita, 2, "ing", formazioneFrancesca);
+		
+		List<Studente> listStudenti = new ArrayList<>();
+		listStudenti.add(anitaStudente);
+		listStudenti.add(francescaStudente);
+		List<Studente> listStudentiResult = Formazione.formazione(listStudenti);
+		for(Studente s: listStudentiResult) {
+			System.out.println(s.toString());
+		}
+		
 	}
 
 }
