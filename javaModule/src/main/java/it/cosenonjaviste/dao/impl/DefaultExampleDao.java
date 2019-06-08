@@ -32,6 +32,7 @@ public class DefaultExampleDao implements ExampleDao{
 		
 	}
 
+
 	public ExampleModel selectExampleById(int id) {
 		// TODO Auto-generated method stub
 		ExampleModel exampleModel = null;
@@ -61,6 +62,7 @@ public class DefaultExampleDao implements ExampleDao{
 		return exampleModel;
 	}
 	
+
 	
 
 }

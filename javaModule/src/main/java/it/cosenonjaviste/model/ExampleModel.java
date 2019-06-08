@@ -19,6 +19,7 @@ public class ExampleModel {
 
 	public void setId(int id) {
 		this.id = id;
+
 	}
 	
 	
