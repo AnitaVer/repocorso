@@ -1,0 +1,5 @@
+it\sopra\uiip\Anita\App.class
+it\sopra\uiip\Anita\dao\impl\DefaultBookDao.class
+it\sopra\uiip\Anita\model\BookModel.class
+it\sopra\uiip\Anita\dao\BookDao.class
+it\sopra\uiip\Anita\ConnectionManager.class
